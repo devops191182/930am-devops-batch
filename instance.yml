@@ -3,5 +3,5 @@
   hosts: localhost 
   Tasks: 
    type: aws::ec2::instance
-   keypair: 1255
+   keypair: new
 
