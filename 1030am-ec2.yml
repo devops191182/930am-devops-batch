@@ -26,5 +26,5 @@ Resources:
         - !Ref MySecurityGroup
       Tags:
         - Key: Name
-          Value: 9.30am-devos-system
+          Value: Aishwarya
 
