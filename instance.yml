@@ -1,7 +1,0 @@
----
-- name: creating new instance
-  hosts: localhost 
-  Tasks: 
-   type: aws::ec2::instance
-   keypair: new
-
