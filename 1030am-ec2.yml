@@ -19,7 +19,7 @@ Resources:
   MyEC2Instance:
     Type: AWS::EC2::Instance
     Properties:
-      InstanceType: t2.micro
+      InstanceType: t2.medium
       KeyName: linux-cli
       ImageId: ami-01b6d88af12965bb6  # Replace with the correct AMI ID for your region
       SecurityGroupIds:
@@ -27,4 +27,3 @@ Resources:
       Tags:
         - Key: Name
           Value: Aishwarya
-
