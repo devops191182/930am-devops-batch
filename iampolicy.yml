@@ -13,4 +13,7 @@ Resources:
               - ec2:Describe*
               - ec2:StartInstances
               - ec2:StopInstances
+              - s3:ListBucket
+              - s3:PutObject
+              - s3:GetObject
             Resource: "*"
